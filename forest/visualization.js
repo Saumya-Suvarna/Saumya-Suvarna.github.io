@@ -70,8 +70,8 @@ $(document).ready(function(e){
     textBox = two.makeText(msg,x+50+SIZE,y+N*SIZE,'normal');
     textBox1 = two.makeText(msg1,x+50+SIZE,y+15+N*SIZE,'normal');
     textBox2 = two.makeText(msg1,x+500+SIZE,y+50+N*SIZE,'normal');
-    textBox3 = two.makeText(msg1,x+500+SIZE,y+90+N*SIZE,'normal');
-    textBox4 = two.makeText(msg1,x+500+SIZE,y+130+N*SIZE,'normal');
+    textBox3 = two.makeText(msg1,x+500+SIZE,y+80+N*SIZE,'normal');
+    textBox4 = two.makeText(msg1,x+500+SIZE,y+110+N*SIZE,'normal');
   }
   var generationCount = 0;
   two.bind('update', function(frameCount) {
